@@ -42,7 +42,7 @@
             @foreach ($features as $feature)
                 <tr>
                     <td>{{ $feature->id }}</td>
-                    <td>{{ $feature->Feature_Name }}</td>
+                    <td>{{ $feature->Name }}</td>
                     <td>{{ $feature->Description }}</td>
                 </tr>
             @endforeach
